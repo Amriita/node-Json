@@ -1,0 +1,7 @@
+node_json.ApiKeyController:
+  path: '/data/{api}/{contenttype}/{nid}'
+  defaults:
+    _controller: '\Drupal\node_json\Controller\ApiKeyController::Api'
+    _title: 'ApiKeyController'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+system.site.third_party.node_json:
+  type: mapping
+  label: 'API settings'
+  mapping:
+      type: string
+      label: 'Api Key'
